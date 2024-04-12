@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+section#content {
+    padding: 10px 0;
+}
+
+.full-image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.container h2 {
+    text-align: center;
+}
+.link_jeu {
+    text-align: center;
+    
+}
+#jeulink {
+    background-color: #555;
+    
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 200px;
+}
+
+.newsletter button {
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.image {
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+#about {
+    background-color: #ccc; 
+    padding: 50px 0; 
+    
+}
+.reservation-form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px; 
+}
+
+.reservation-form label {
+    font-weight: bold; 
+}
+
+.reservation-form input[type="text"],
+.reservation-form input[type="email"],
+.reservation-form textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 3px; 
+}
+
+.reservation-form textarea {
+    height: 100px; 
+}
+
+.reservation-form button {
+    padding: 10px 20px; 
+    background-color: #333; 
+    color: #fff; 
+    border: none; 
+    border-radius: 3px; 
+    cursor: pointer; 
+}
+
+.reservation-form button:hover {
+    background-color: #555; 
+}
+a {
+    color: #fff; 
+    text-decoration: none;
+}
+#content {
+    overflow-y: auto; 
+}
+
+a-scene {
+    height: 400px; 
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(249, 249, 249, 0.8); /* Couleur transparente */
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  .animated-title {
+    animation: fadeInUp 1s ease-out;
+  }
+
+
+.gallery img {
+    transition: transform 0.3s ease-in-out; 
+}
+
+.gallery img {
+    width: 100%; 
+}
+
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
